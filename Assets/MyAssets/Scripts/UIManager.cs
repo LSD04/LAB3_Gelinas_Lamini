@@ -30,7 +30,7 @@ public class UIManager : MonoBehaviour
      
             if (Input.GetKeyDown(r)||Input.GetKeyDown(l)||Input.GetKeyDown(up)||Input.GetKeyDown(d))
             {
-                float temps = Time.time ;
+                float temps = Time.time - _gestionJeu.GetTempsDepart();
                 _txtTemps.text = "Temps : " + temps.ToString("f2");
             }
         
