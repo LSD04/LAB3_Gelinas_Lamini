@@ -8,7 +8,7 @@ public class GestionJeu : MonoBehaviour
     private int _pointage = 0;  
     private float _tempsFinal = 0;
     private float _tempsDepart = 0;
-    private float _temps = 0;
+ 
 
     private void Awake()
     {
