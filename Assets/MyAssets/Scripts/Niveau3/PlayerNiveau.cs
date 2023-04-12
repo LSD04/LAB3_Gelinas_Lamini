@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerNiveau : MonoBehaviour
 {
     // Attributs
-    [SerializeField] private float _vitesse = 50; 
+    [SerializeField] private float _vitesse = 10; 
     private Rigidbody _rb;
     
     // Méthode privées
